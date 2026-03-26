@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "alimaiday",
+  "version": "1.0.0",
+  "name": "Alimaiday",
+  "description": "Aggiunge il comando /alimaiday",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.alimaiday.AlimaidayMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.1"
+  }
+}
